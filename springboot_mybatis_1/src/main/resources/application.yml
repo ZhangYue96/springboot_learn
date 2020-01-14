@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ssm
+    password: root
+    username: root
+mybatis:
+  mapper-locations: classpath:mappers/*.xml
+  type-aliases-package: com.zy.pojo
+logging:
+  level:
+    com.zy: debug
